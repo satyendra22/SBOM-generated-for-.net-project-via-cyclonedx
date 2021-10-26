@@ -12,4 +12,4 @@ SBOM generated for .net project via cyclonedx
  -  Use CyCloneDX.exe to generate BOM for the test plan
   - Syntax: CycloneDX <path> -o <OUTPUT_DIRECTORY>  (path is the directory of .sln, .csproj, .vbproj, or packages.config)
   - <code> C:\<CODE>\cyclonedx-dotnet\CycloneDX\bin\Debug\netcoreapp3.1\publish> .\CycloneDX.exe C:\<Proj-Code>project-aspnet-dotnet-webapp\SampleWebApplication -o C:\<OUTPATH>\project-aspnet-dotnet-webapp\BOM' </code>
-  - BOM.xml is generated in output directory
+  - BOM.xml is generated in output directory. generated file added for reference https://github.com/satyendra22/SBOM-generated-for-.net-project-via-cyclonedx/blob/main/bom.xml
