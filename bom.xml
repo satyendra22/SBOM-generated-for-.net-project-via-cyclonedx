@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:8bd6eccb-e54b-4df3-b2d5-7a637183f86a" version="1" xmlns="http://cyclonedx.org/schema/bom/1.3">
+  <metadata>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>CycloneDX module for .NET</name>
+        <version>1.0.0.0</version>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="C:\Work-PSS\sbom\project-aspnet-dotnet-webapp@0.0.0">
+      <name>C:\Work-PSS\sbom\project-aspnet-dotnet-webapp</name>
+      <version>0.0.0</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:nuget/Antlr@3.4.1.9004">
+      <publisher>Terence Parr</publisher>
+      <name>Antlr</name>
+      <version>3.4.1.9004</version>
+      <description>ANother Tool for Language Recognition, is a language tool that provides a framework for constructing recognizers, interpreters, compilers, and translators from grammatical descriptions containing actions in a variety of target languages.</description>
+      <hashes>
+        <hash alg="SHA-512">B7846AA81FF2BD21D4F2892BC924B52F629A68FB003820CCF0D3DB88ECBC389C3FA223488E35334B98A021525DB349B993902663219657D8C156915072AF37D3</hash>
+      </hashes>
+      <purl>pkg:nuget/Antlr@3.4.1.9004</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/bootstrap@3.0.0">
+      <publisher>Mark Otto,Jacob Thornton</publisher>
+      <name>bootstrap</name>
+      <version>3.0.0</version>
+      <description>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</description>
+      <hashes>
+        <hash alg="SHA-512">53D07053066CDC8CA48A0554A2EC84594CECFCFD208E02E08EE649DCE1E800A72035D6C71FBAF266D469829E1EEEE32BE028CB20409C4C8C45DB9CC11898D1DE</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>https://github.com/twbs/bootstrap/blob/master/LICENSE</url>
+        </license>
+      </licenses>
+      <copyright>Copyright 2013</copyright>
+      <purl>pkg:nuget/bootstrap@3.0.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/twbs/bootstrap</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/jQuery@1.10.2">
+      <publisher>jQuery Foundation, Inc.</publisher>
+      <name>jQuery</name>
+      <version>1.10.2</version>
+      <description>jQuery is a new kind of JavaScript Library.
+        jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.
+        NOTE: This package is maintained on behalf of the library owners by the NuGet Community Packages project at http://nugetpackages.codeplex.com/</description>
+      <hashes>
+        <hash alg="SHA-512">79F0BB49C6BECE8D14E15C65526A963B992F5F46872DDDE8CA5927AA02825A5B039BB0427428E01F1EA6DFA195AD4050F86F322B162B727F951F122B8F669868</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://jquery.org/license</url>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/jQuery@1.10.2</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://jquery.com/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/jQuery.Validation@1.11.1">
+      <publisher>Jörn Zaefferer</publisher>
+      <name>jQuery.Validation</name>
+      <version>1.11.1</version>
+      <description>This jQuery plugin makes simple clientside form validation trivial, while offering lots of option for customization. That makes a good choice if you’re building something new from scratch, but also when you’re trying to integrate it into an existing application with lots of existing markup. The plugin comes bundled with a useful set of validation methods, including URL and email validation, while providing an API to write your own methods. All bundled methods come with default error messages in english and translations into 32 languages.
+    NOTE: This package is maintained on behalf of the library owners by the NuGet Community Packages project at http://nugetpackages.codeplex.com/</description>
+      <hashes>
+        <hash alg="SHA-512">91675A9B967918BC58F0206370B21632777E9EF9E0F68A205DDC2EE479FB1098084EB60C72C6542C52D582EDC996BE483747984AF6E395B7D496AA93742A97DA</hash>
+      </hashes>
+      <purl>pkg:nuget/jQuery.Validation@1.11.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://bassistance.de/jquery-plugins/jquery-plugin-validation/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ApplicationInsights@2.2.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.ApplicationInsights</name>
+      <version>2.2.0</version>
+      <description>Application Insights Core API. This package provides core functionality for transmission of all Application Insights Telemetry Types and is a dependent package for all other Application Insights packages.</description>
+      <hashes>
+        <hash alg="SHA-512">B820F44C9ADB805CD3BEB130B9B2D0456FAF9511C5D8FC7BC09A6215CF6A26A7A1244ADC32BA2980FD79F783CA8934AC0AC729C2271B5306CC08C12224AF8989</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkID=510709</url>
+        </license>
+      </licenses>
+      <copyright>Copyright © Microsoft. All Rights Reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.ApplicationInsights@2.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=392727</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ApplicationInsights.Agent.Intercept@2.0.6">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.ApplicationInsights.Agent.Intercept</name>
+      <version>2.0.6</version>
+      <description>This NuGet enables Interception of method calls.</description>
+      <hashes>
+        <hash alg="SHA-512">4F821D001D65B3A904A75E024186E379720000218D93DE85A6917F53C26305FD1AA4A384924A1B540E5BE03FBE660EF8AD5F32A51B445920C8B110395EC949D2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkID=510709</url>
+        </license>
+      </licenses>
+      <copyright>Copyright c Microsoft. All Rights Reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.ApplicationInsights.Agent.Intercept@2.0.6</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=392727</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ApplicationInsights.DependencyCollector@2.2.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.ApplicationInsights.DependencyCollector</name>
+      <version>2.2.0</version>
+      <description>Application Insights Dependency Collector for .NET applications provides platform specific automatic collection of dependency telemetry.</description>
+      <hashes>
+        <hash alg="SHA-512">B91927727D2F6CA45E6FB339207CC4CE492A6D879946FD682A4F31D88E0FF171BFF436419038749C62ACF5EA81E6AE99EA568DCAA89FEE09FBB99D2CE269A5F9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkID=510709</url>
+        </license>
+      </licenses>
+      <copyright>Copyright © Microsoft. All Rights Reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.ApplicationInsights.DependencyCollector@2.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=392727</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ApplicationInsights.PerfCounterCollector@2.2.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.ApplicationInsights.PerfCounterCollector</name>
+      <version>2.2.0</version>
+      <description>Application Insights Performance Counters Collector allows you to send data collected by Performance Counters to Application Insights.</description>
+      <hashes>
+        <hash alg="SHA-512">7719C4233D1A86B737719460E2A4823FF5BF2D2A44C7CC454184485968B9AB1091BB4A45250064364EFEEA20A2F283B547543F3899A1C513FC2367FD0A112DB6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkID=510709</url>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/Microsoft.ApplicationInsights.PerfCounterCollector@2.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=392727</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ApplicationInsights.Web@2.2.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.ApplicationInsights.Web</name>
+      <version>2.2.0</version>
+      <description>Application Insights for .NET web applications.</description>
+      <hashes>
+        <hash alg="SHA-512">10B573D222E98A731A2D426EEFF47C98CAA96D936C41B696D9BBE42BEB3095D375C0DE9EE99F3140378D76BA06DAD4F7987A4DC5701E62434BDC14A9E56981C2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkID=510709</url>
+        </license>
+      </licenses>
+      <copyright>Copyright © Microsoft. All Rights Reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.ApplicationInsights.Web@2.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=392727</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ApplicationInsights.WindowsServer@2.2.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.ApplicationInsights.WindowsServer</name>
+      <version>2.2.0</version>
+      <description>Application Insights Windows Server nuget package provides additional automatic collection of application insights telemetry for .NET applications.</description>
+      <hashes>
+        <hash alg="SHA-512">D958D64A1FB7A16DBEF9CCC12BA8F3EBD13DA9CCC544503C535D04967C876E99AEBF272C72944933886393EA6736EEB53C3175CB17D475C34DFB225E7CFAC522</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkID=510709</url>
+        </license>
+      </licenses>
+      <copyright>Copyright © Microsoft. All Rights Reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.ApplicationInsights.WindowsServer@2.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=392727</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel@2.2.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel</name>
+      <version>2.2.0</version>
+      <description>This nuget provides a telemetry channel to Application Insights Windows Server SDK that will preserve telemetry in offline scenarios.</description>
+      <hashes>
+        <hash alg="SHA-512">73F2A3ADC8AB269454244E1BE50BE840F41C18F8796ED03F088B18CB864C97E7F7B8FE3B91493B8C70CC1A9918BA6AED2480D988CD89D4CD29C35F3CF9FD7AD9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkID=510709</url>
+        </license>
+      </licenses>
+      <copyright>Copyright © Microsoft. All Rights Reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel@2.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=392727</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNet.Mvc@5.2.3">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.AspNet.Mvc</name>
+      <version>5.2.3</version>
+      <description>This package contains the runtime assemblies for ASP.NET MVC.</description>
+      <hashes>
+        <hash alg="SHA-512">AF3F55CA7200D82EE374A17404BEF95310DBA65010595BB633CAD803B5B707ADBB942590D5993586BDD2F8868016B29A20495C4DA1B2C267F86AD6EC214F57EE</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.microsoft.com/web/webpi/eula/net_library_eula_ENU.htm</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.AspNet.Mvc@5.2.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://www.asp.net/mvc</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNet.Razor@3.2.3">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.AspNet.Razor</name>
+      <version>3.2.3</version>
+      <description>This package contains the runtime assemblies for ASP.NET Web Pages.</description>
+      <hashes>
+        <hash alg="SHA-512">56CA90985BF4B6CA20D471CD376A9FA9A7C9121B427889505E30A6CB2CB4C73A2A5E13EF7ED0B5C58C35F3F22C0ADA2B0E3BE25E47F5A6C4B9FF76690D76E185</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.microsoft.com/web/webpi/eula/net_library_eula_ENU.htm</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.AspNet.Razor@3.2.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://www.asp.net/web-pages</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNet.Web.Optimization@1.1.3">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.AspNet.Web.Optimization</name>
+      <version>1.1.3</version>
+      <description>ASP.NET Optimization introduces a way to bundle and optimize CSS and JavaScript files.</description>
+      <hashes>
+        <hash alg="SHA-512">67A9AA724CC3CABE5790B9A106E6E037B1DAFBA256E393063C4E67D1EA051689C814541D90B56DFC970813D952DE25B7B9AAD1084D4219E71579D5912CF69F79</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.AspNet.Web.Optimization@1.1.3</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNet.WebPages@3.2.3">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.AspNet.WebPages</name>
+      <version>3.2.3</version>
+      <description>This package contains core runtime assemblies shared between ASP.NET MVC and ASP.NET Web Pages.</description>
+      <hashes>
+        <hash alg="SHA-512">C571BBBE59C22E8BBA0DDFC96FF18840B1AA720C72EB628109936CC5EBF8DAE40A904C789D30896E94AA2DFC1D9B093590B4B58211771D7D2737C8EB20C0AC22</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.microsoft.com/web/webpi/eula/net_library_eula_ENU.htm</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.AspNet.WebPages@3.2.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://www.asp.net/web-pages</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.CodeDom.Providers.DotNetCompilerPlatform@1.0.5">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.CodeDom.Providers.DotNetCompilerPlatform</name>
+      <version>1.0.5</version>
+      <description>Replacement CodeDOM providers that use the new .NET Compiler Platform ("Roslyn") compiler as a service APIs.</description>
+      <hashes>
+        <hash alg="SHA-512">4C3315E3B1462600F4DF58714958066C3B86F8C6615530B5568F184B025DF9360D004D7475DE38C9ABFBC366817DF077915C3C180169FE475EE9F1CB3B854BF3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.microsoft.com/web/webpi/eula/net_library_eula_ENU.htm</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.CodeDom.Providers.DotNetCompilerPlatform@1.0.5</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://www.asp.net/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.jQuery.Unobtrusive.Validation@3.2.3">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.jQuery.Unobtrusive.Validation</name>
+      <version>3.2.3</version>
+      <description>jQuery plugin that unobtrusively sets up jQuery.Validation.</description>
+      <hashes>
+        <hash alg="SHA-512">CE625D08FB2873A3061B51D66E47A16D65FE619FBA3BE5F34F319C84FD70092844F92D2F930181216777ACEC35852BFC6F1340B801622E3C2D31D9AA5BF2A9A3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.microsoft.com/web/webpi/eula/net_library_eula_ENU.htm</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.jQuery.Unobtrusive.Validation@3.2.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://www.asp.net/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Net.Compilers@2.1.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.Net.Compilers</name>
+      <version>2.1.0</version>
+      <description>.Net Compilers package. Referencing this package will cause the project to be built using the specific version of the C# and Visual Basic compilers contained in the package, as opposed to any system installed version.
+
+    This package can be used to compile code targeting any platform, but can only be run using the desktop .NET 4.6+ Full Framework.</description>
+      <hashes>
+        <hash alg="SHA-512">35A24816CF0D3290DA5D4E9894E4AF2F1B3C447A43A0993422569809E113079B782EE2E150FC24EB87F446EA9572E9307D01D8BF1639FD0F523DA0D04CB88669</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://go.microsoft.com/fwlink/?LinkId=529444</url>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/Microsoft.Net.Compilers@2.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://msdn.com/roslyn</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Web.Infrastructure@1.0.0.0">
+      <name>Microsoft.Web.Infrastructure</name>
+      <version>1.0.0.0</version>
+      <purl>pkg:nuget/Microsoft.Web.Infrastructure@1.0.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Modernizr@2.6.2">
+      <publisher>Faruk Ateş, Paul Irish, Alex Sexton</publisher>
+      <name>Modernizr</name>
+      <version>2.6.2</version>
+      <description>Modernizr is a small and simple JavaScript library that helps you take advantage of emerging web technologies (CSS3, HTML 5) while still maintaining a fine level of control over older browsers that may not yet support these new technologies.</description>
+      <hashes>
+        <hash alg="SHA-512">65D7203B793461C7DA15EEA0DB7A0F46488C210261FE5C32CA77342800BC9952D5FC1E595EDB2991F2F3E8A677AFF788488349582473DAF76E5D4959F1A2CA43</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.modernizr.com/license/</url>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/Modernizr@2.6.2</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://www.modernizr.com/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Newtonsoft.Json@6.0.4">
+      <publisher>James Newton-King</publisher>
+      <name>Newtonsoft.Json</name>
+      <version>6.0.4</version>
+      <description>Json.NET is a popular high-performance JSON framework for .NET</description>
+      <hashes>
+        <hash alg="SHA-512">3CE707ADE5C4434BEA0859182E543BF96622545BE2E73FE685948C2312E8ADBD4C9BC5545B04A9C855CD102E149B800F5926914E4CDA6173FF756AC5AEE6FF04</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>https://raw.github.com/JamesNK/Newtonsoft.Json/master/LICENSE.md</url>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/Newtonsoft.Json@6.0.4</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://james.newtonking.com/json</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Respond@1.2.0">
+      <publisher>Scott Jehl</publisher>
+      <name>Respond</name>
+      <version>1.2.0</version>
+      <description>A fast &amp; lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)</description>
+      <hashes>
+        <hash alg="SHA-512">9D7169278710B56BAA58A0072E992FBF8A5636210E986CE502C0B45F8CA6F27AC0E633338D0BDB2E336FDD0DEBC797420FEE1E237051C7A7B23A19856FA0B702</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>https://github.com/scottjehl/Respond</url>
+        </license>
+      </licenses>
+      <copyright>2011: Scott Jehl, scottjehl.com</copyright>
+      <purl>pkg:nuget/Respond@1.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/scottjehl/Respond</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/WebGrease@1.5.2">
+      <publisher>webgrease@microsoft.com</publisher>
+      <name>WebGrease</name>
+      <version>1.5.2</version>
+      <description>Web Grease is a suite of tools for optimizing javascript, css files and images.</description>
+      <hashes>
+        <hash alg="SHA-512">453FA7A3483B424DBC27F5D5C07827E6527FAA6E21C96169EF0B7423BD54C348F749F4DF3A636A3CCC5F79D1DA9C08ED7F7741DBFD0A8D0DDF424BD57B0B2FB0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <url>http://www.microsoft.com/web/webpi/eula/msn_webgrease_eula.htm</url>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/WebGrease@1.5.2</purl>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="C:\Work-PSS\sbom\project-aspnet-dotnet-webapp@0.0.0">
+      <dependency ref="pkg:nuget/Antlr@3.4.1.9004" />
+      <dependency ref="pkg:nuget/bootstrap@3.0.0" />
+      <dependency ref="pkg:nuget/jQuery@1.10.2" />
+      <dependency ref="pkg:nuget/jQuery.Validation@1.11.1" />
+      <dependency ref="pkg:nuget/Microsoft.ApplicationInsights@2.2.0" />
+      <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.Agent.Intercept@2.0.6" />
+      <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.DependencyCollector@2.2.0" />
+      <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.PerfCounterCollector@2.2.0" />
+      <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.Web@2.2.0" />
+      <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.WindowsServer@2.2.0" />
+      <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel@2.2.0" />
+      <dependency ref="pkg:nuget/Microsoft.AspNet.Mvc@5.2.3" />
+      <dependency ref="pkg:nuget/Microsoft.AspNet.Razor@3.2.3" />
+      <dependency ref="pkg:nuget/Microsoft.AspNet.Web.Optimization@1.1.3" />
+      <dependency ref="pkg:nuget/Microsoft.AspNet.WebPages@3.2.3" />
+      <dependency ref="pkg:nuget/Microsoft.CodeDom.Providers.DotNetCompilerPlatform@1.0.5" />
+      <dependency ref="pkg:nuget/Microsoft.jQuery.Unobtrusive.Validation@3.2.3" />
+      <dependency ref="pkg:nuget/Microsoft.Net.Compilers@2.1.0" />
+      <dependency ref="pkg:nuget/Microsoft.Web.Infrastructure@1.0.0.0" />
+      <dependency ref="pkg:nuget/Modernizr@2.6.2" />
+      <dependency ref="pkg:nuget/Newtonsoft.Json@6.0.4" />
+      <dependency ref="pkg:nuget/Respond@1.2.0" />
+      <dependency ref="pkg:nuget/WebGrease@1.5.2" />
+    </dependency>
+    <dependency ref="pkg:nuget/Antlr@3.4.1.9004" />
+    <dependency ref="pkg:nuget/bootstrap@3.0.0" />
+    <dependency ref="pkg:nuget/jQuery.Validation@1.11.1" />
+    <dependency ref="pkg:nuget/jQuery@1.10.2" />
+    <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.Agent.Intercept@2.0.6" />
+    <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.DependencyCollector@2.2.0" />
+    <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.PerfCounterCollector@2.2.0" />
+    <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.Web@2.2.0" />
+    <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel@2.2.0" />
+    <dependency ref="pkg:nuget/Microsoft.ApplicationInsights.WindowsServer@2.2.0" />
+    <dependency ref="pkg:nuget/Microsoft.ApplicationInsights@2.2.0" />
+    <dependency ref="pkg:nuget/Microsoft.AspNet.Mvc@5.2.3" />
+    <dependency ref="pkg:nuget/Microsoft.AspNet.Razor@3.2.3" />
+    <dependency ref="pkg:nuget/Microsoft.AspNet.Web.Optimization@1.1.3" />
+    <dependency ref="pkg:nuget/Microsoft.AspNet.WebPages@3.2.3" />
+    <dependency ref="pkg:nuget/Microsoft.CodeDom.Providers.DotNetCompilerPlatform@1.0.5" />
+    <dependency ref="pkg:nuget/Microsoft.jQuery.Unobtrusive.Validation@3.2.3" />
+    <dependency ref="pkg:nuget/Microsoft.Net.Compilers@2.1.0" />
+    <dependency ref="pkg:nuget/Microsoft.Web.Infrastructure@1.0.0.0" />
+    <dependency ref="pkg:nuget/Modernizr@2.6.2" />
+    <dependency ref="pkg:nuget/Newtonsoft.Json@6.0.4" />
+    <dependency ref="pkg:nuget/Respond@1.2.0" />
+    <dependency ref="pkg:nuget/WebGrease@1.5.2" />
+  </dependencies>
+</bom>
